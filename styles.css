@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.footerBox {
+    text-align: center;
+  position: relative;
+   width:100%;
+   top:900px;
+    margin:0px;
+}
+
+body{
+    position: relative;
+}
+.containerLeft{
+    width:700px;
+float:left;
+    position: absolute;
+}
+
+img{
+    position: relative;
+    width:695px;
+    height: 900px;
+}
+
+.containerRight{
+    width:570px;
+    float: right;
+    margin: 8px;
+    position:absolute;
+    left:740px;
+}
+
+
+a:hover{
+    background:#fff;
+}
+
+.left{
+    float:left;
+    font-size: 16px;
+   
+}
+
+.right{
+    float:right;
+    font-size: 16px;
+ 
+}
+
+.footerB{
+    background-color: white;
+    padding: 30px;
+    margin-bottom:2px;
+}
+
+.msgbtn{
+    width:100%;
+    height: 50px;
+}
+
+.form-label{
+font-weight: bold;
+}
+
+.footerB{
+    
+flex-direction: column;
+}
+
+#policy{
+    display: none;
+}
+
+#levelup{
+    font-size:50px;
+}
+
+@media (max-width: 767px) {
+    
+    .containerLeft {
+      display: none;
+    }
+
+    .containerRight {
+        margin: 0px;
+        padding:25px;
+        left:0px;
+        width:100%;
+        top:130px;
+      }
+
+      
+    #policy{
+        display: block;
+    }
+    #services{
+        display: none;
+    }
+    
+    
+    .footerB{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+
+   .leftF{
+    width: 100%;
+    right:50%;
+    font-size: 16px;
+        }
+
+    .rightF{
+     width:49.5%;
+     margin:5px;
+     font-size: small;
+    }    
+  }
